@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Rock Concert Night",
+    "description": "Live performance by top rock bands with special guests.",
+    "price": 75,
+    "totaltickets": 5000,
+    "location": "New York, USA",
+    "eventdate": "2024-10-15",
+    "userid": "user123abc"
+  },
+  {
+    "name": "Tech Conference 2024",
+    "description": "Annual gathering of tech innovators and speakers.",
+    "price": 150,
+    "totaltickets": 2000,
+    "location": "San Francisco, USA",
+    "eventdate": "2024-11-05",
+    "userid": "user456def"
+  },
+  {
+    "name": "Jazz Festival",
+    "description": "Smooth jazz performances under the stars.",
+    "price": 50,
+    "totaltickets": 1500,
+    "location": "New Orleans, USA",
+    "eventdate": "2024-09-20",
+    "userid": "user789ghi"
+  },
+  {
+    "name": "Bollywood Night",
+    "description": "Dance and music from Indian cinema stars.",
+    "price": 40,
+    "totaltickets": 3000,
+    "location": "Mumbai, India",
+    "eventdate": "2024-12-10",
+    "userid": "user101jkl"
+  },
+  {
+    "name": "Formula 1 Viewing Party",
+    "description": "Live screening with fan activities.",
+    "price": 100,
+    "totaltickets": 1000,
+    "location": "Dubai, UAE",
+    "eventdate": "2024-11-25",
+    "userid": "user202mno"
+  },
+  {
+    "name": "Art Exhibition Opening",
+    "description": "Showcasing modern contemporary art.",
+    "price": 20,
+    "totaltickets": 800,
+    "location": "London, UK",
+    "eventdate": "2024-10-01",
+    "userid": "user303pqr"
+  },
+  {
+    "name": "Comedy Show Live",
+    "description": "Stand-up comedy by famous comedians.",
+    "price": 30,
+    "totaltickets": 1200,
+    "location": "Los Angeles, USA",
+    "eventdate": "2024-09-30",
+    "userid": "user404stu"
+  },
+  {
+    "name": "Food Festival",
+    "description": "Taste cuisines from around the world.",
+    "price": 15,
+    "totaltickets": 4000,
+    "location": "Singapore",
+    "eventdate": "2024-10-20",
+    "userid": "user505vwx"
+  },
+  {
+    "name": "Classical Music Recital",
+    "description": "Orchestra performing timeless classics.",
+    "price": 60,
+    "totaltickets": 900,
+    "location": "Vienna, Austria",
+    "eventdate": "2024-11-15",
+    "userid": "user606yz0"
+  },
+  {
+    "name": "Startup Pitch Event",
+    "description": "Entrepreneurs pitching to investors.",
+    "price": 80,
+    "totaltickets": 500,
+    "location": "Berlin, Germany",
+    "eventdate": "2024-12-05",
+    "userid": "user707123"
+  },
+  {
+    "name": "Beach Party Festival",
+    "description": "Music and fun on the beach.",
+    "price": 45,
+    "totaltickets": 2500,
+    "location": "Rio de Janeiro, Brazil",
+    "eventdate": "2024-10-25",
+    "userid": "user808456"
+  },
+  {
+    "name": "Film Premiere Gala",
+    "description": "Red carpet event with celebrities.",
+    "price": 200,
+    "totaltickets": 600,
+    "location": "Cannes, France",
+    "eventdate": "2024-09-10",
+    "userid": "user909789"
+  },
+  {
+    "name": "Yoga Retreat Workshop",
+    "description": "Wellness sessions and meditation.",
+    "price": 100,
+    "totaltickets": 300,
+    "location": "Bali, Indonesia",
+    "eventdate": "2024-11-01",
+    "userid": "user010abc"
+  },
+  {
+    "name": "E-Sports Tournament",
+    "description": "Competitive gaming with prizes.",
+    "price": 25,
+    "totaltickets": 2000,
+    "location": "Seoul, South Korea",
+    "eventdate": "2024-10-10",
+    "userid": "user111def"
+  },
+  {
+    "name": "Wine Tasting Event",
+    "description": "Sample fine wines from vineyards.",
+    "price": 55,
+    "totaltickets": 400,
+    "location": "Napa Valley, USA",
+    "eventdate": "2024-09-25",
+    "userid": "user212ghi"
+  },
+  {
+    "name": "Cultural Dance Show",
+    "description": "Traditional dances from various cultures.",
+    "price": 35,
+    "totaltickets": 1000,
+    "location": "Tokyo, Japan",
+    "eventdate": "2024-12-15",
+    "userid": "user313jkl"
+  },
+  {
+    "name": "Business Networking Mixer",
+    "description": "Connect with industry professionals.",
+    "price": 70,
+    "totaltickets": 700,
+    "location": "Toronto, Canada",
+    "eventdate": "2024-11-20",
+    "userid": "user414mno"
+  },
+  {
+    "name": "Halloween Horror Night",
+    "description": "Spooky attractions and scares.",
+    "price": 40,
+    "totaltickets": 3000,
+    "location": "Orlando, USA",
+    "eventdate": "2024-10-31",
+    "userid": "user515pqr"
+  },
+  {
+    "name": "Photography Workshop",
+    "description": "Learn from pro photographers.",
+    "price": 90,
+    "totaltickets": 200,
+    "location": "Sydney, Australia",
+    "eventdate": "2024-09-15",
+    "userid": "user616stu"
+  },
+  {
+    "name": "New Year's Eve Party",
+    "description": "Countdown with fireworks and music.",
+    "price": 120,
+    "totaltickets": 5000,
+    "location": "Times Square, New York, USA",
+    "eventdate": "2024-12-31",
+    "userid": "user717vwx"
+  }
+]
