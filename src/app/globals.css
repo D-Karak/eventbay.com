@@ -43,7 +43,7 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-:root {
+/* :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.141 0.005 285.823);
@@ -110,6 +110,106 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.552 0.016 285.938);
+} */
+
+:root {
+--radius: 0.625rem;
+
+
+--background: #F5F5F5; 
+--foreground: #3D3D3D; 
+
+--card: #FFFFFF;
+--card-foreground: #3D3D3D;
+
+--popover: #FFFFFF;
+--popover-foreground: #3D3D3D;
+
+/* Brand */
+--primary: #FF6523; /* logo orange */
+--primary-foreground: #111111; /* dark text on orange (AA) */
+
+--secondary: #799CAA; /* steel blue */
+--secondary-foreground: #111111;
+
+--accent: #A97CD1; /* violet */
+--accent-foreground: #111111;
+
+/* UI */
+--muted: #EFEFEF;
+--muted-foreground: #606060;
+
+--destructive: #DC2626;
+
+--border: #E5E5E5;
+--input: #E5E5E5;
+--ring: #799CAA; /* focus ring in brand blue */
+
+/* Charts (brand-driven) /
+--chart-1: #FF6523; / primary /
+--chart-2: #799CAA; / secondary /
+--chart-3: #A97CD1; / accent /
+--chart-4: #FFAD8A; / light orange /
+--chart-5: #415B65; / deep steel blue */
+
+/* Sidebar */
+--sidebar: #FFFFFF;
+--sidebar-foreground: #3D3D3D;
+--sidebar-primary: #FF6523;
+--sidebar-primary-foreground: #111111;
+--sidebar-accent: #A97CD1;
+--sidebar-accent-foreground: #111111;
+--sidebar-border: #E5E5E5;
+--sidebar-ring: #799CAA;
+}
+
+.dark {
+/* Neutrals */
+--background: #111315;
+--foreground: #EDEDED;
+
+--card: #161A1D;
+--card-foreground: #EDEDED;
+
+--popover: #161A1D;
+--popover-foreground: #EDEDED;
+
+/* Brand (darkened for AA with white text) /
+--primary: #B74612; / darker orange */
+--primary-foreground: #FFFFFF;
+
+--secondary: #415B65; /* darker blue */
+--secondary-foreground: #FFFFFF;
+
+--accent: #613D7F; /* darker violet */
+--accent-foreground: #FFFFFF;
+
+/* UI */
+--muted: #1F262B;
+--muted-foreground: #98A2B3;
+
+--destructive: #EF4444;
+
+--border: #273138;
+--input: #273138;
+--ring: #799CAA;
+
+/* Charts (slightly brighter against dark bg) */
+--chart-1: #FF8F5E;
+--chart-2: #94B4C1;
+--chart-3: #BB8BDE;
+--chart-4: #FF6523;
+--chart-5: #799CAA;
+
+/* Sidebar */
+--sidebar: #161A1D;
+--sidebar-foreground: #EDEDED;
+--sidebar-primary: #B74612;
+--sidebar-primary-foreground: #FFFFFF;
+--sidebar-accent: #613D7F;
+--sidebar-accent-foreground: #FFFFFF;
+--sidebar-border: #273138;
+--sidebar-ring: #799CAA;
 }
 
 @layer base {
