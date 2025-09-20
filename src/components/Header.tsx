@@ -3,9 +3,10 @@ import Link from 'next/link'
 import React from 'react'
 import logo from '../../images/logo.png'
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs'
+import SearchBar from './SearchBar'
 const Header = () => {
   return (
-    <header className='border-b '>
+    <header className='border-b bg-white'>
         <div className='flex flex-col lg:flex-row items-center gap-4 p-4'>
             <div className='flex items-center justify-between w-full lg:w-auto'>
                 <Link href='/' className="font-bold shrink-0">
@@ -24,10 +25,14 @@ const Header = () => {
 
                     <SignedOut>
                         <SignInButton>
-                            <button className='bg-accent text-primary text-sm rounded-lg hover:bg-primary transition-border-gray-300 py-2 px-3'>Sign In</button>
+                            <button className='text-sm text-foreground border-2 border-primary py-2 px-3 rounded hover:bg-secondary hover:border-accent hover:text-primary cursor-pointer'>Sign In</button>
                         </SignInButton>
                     </SignedOut>
                 </div>
+            </div>
+            {/* searchBar */}
+            <div className='w-full lg:max-w-2xl'>
+                <SearchBar/>
             </div>
         </div>
     </header>
