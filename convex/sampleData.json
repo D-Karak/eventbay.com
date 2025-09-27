@@ -3,180 +3,180 @@
     "name": "Rock Concert Night",
     "description": "Live performance by top rock bands with special guests.",
     "price": 75,
-    "totaltickets": 5000,
+    "totalTickets": 5000,
     "location": "New York, USA",
-    "eventdate": "2024-10-15",
-    "userid": "user123abc"
+    "eventDate": 1728940800000,
+    "userId": "user123abc"
   },
   {
     "name": "Tech Conference 2024",
     "description": "Annual gathering of tech innovators and speakers.",
     "price": 150,
-    "totaltickets": 2000,
+    "totalTickets": 2000,
     "location": "San Francisco, USA",
-    "eventdate": "2024-11-05",
-    "userid": "user456def"
+    "eventDate": 1730764800000,
+    "userId": "user456def"
   },
   {
     "name": "Jazz Festival",
     "description": "Smooth jazz performances under the stars.",
     "price": 50,
-    "totaltickets": 1500,
+    "totalTickets": 1500,
     "location": "New Orleans, USA",
-    "eventdate": "2024-09-20",
-    "userid": "user789ghi"
+    "eventDate": 1726780800000,
+    "userId": "user789ghi"
   },
   {
     "name": "Bollywood Night",
     "description": "Dance and music from Indian cinema stars.",
     "price": 40,
-    "totaltickets": 3000,
+    "totalTickets": 3000,
     "location": "Mumbai, India",
-    "eventdate": "2024-12-10",
-    "userid": "user101jkl"
+    "eventDate": 1733798400000,
+    "userId": "user101jkl"
   },
   {
     "name": "Formula 1 Viewing Party",
     "description": "Live screening with fan activities.",
     "price": 100,
-    "totaltickets": 1000,
+    "totalTickets": 1000,
     "location": "Dubai, UAE",
-    "eventdate": "2024-11-25",
-    "userid": "user202mno"
+    "eventDate": 1732498800000,
+    "userId": "user202mno"
   },
   {
     "name": "Art Exhibition Opening",
     "description": "Showcasing modern contemporary art.",
     "price": 20,
-    "totaltickets": 800,
+    "totalTickets": 800,
     "location": "London, UK",
-    "eventdate": "2024-10-01",
-    "userid": "user303pqr"
+    "eventDate": 1727740800000,
+    "userId": "user303pqr"
   },
   {
     "name": "Comedy Show Live",
     "description": "Stand-up comedy by famous comedians.",
     "price": 30,
-    "totaltickets": 1200,
+    "totalTickets": 1200,
     "location": "Los Angeles, USA",
-    "eventdate": "2024-09-30",
-    "userid": "user404stu"
+    "eventDate": 1727654400000,
+    "userId": "user404stu"
   },
   {
     "name": "Food Festival",
     "description": "Taste cuisines from around the world.",
     "price": 15,
-    "totaltickets": 4000,
+    "totalTickets": 4000,
     "location": "Singapore",
-    "eventdate": "2024-10-20",
-    "userid": "user505vwx"
+    "eventDate": 1729382400000,
+    "userId": "user505vwx"
   },
   {
     "name": "Classical Music Recital",
     "description": "Orchestra performing timeless classics.",
     "price": 60,
-    "totaltickets": 900,
+    "totalTickets": 900,
     "location": "Vienna, Austria",
-    "eventdate": "2024-11-15",
-    "userid": "user606yz0"
+    "eventDate": 1731628800000,
+    "userId": "user606yz0"
   },
   {
     "name": "Startup Pitch Event",
     "description": "Entrepreneurs pitching to investors.",
     "price": 80,
-    "totaltickets": 500,
+    "totalTickets": 500,
     "location": "Berlin, Germany",
-    "eventdate": "2024-12-05",
-    "userid": "user707123"
+    "eventDate": 1733356800000,
+    "userId": "user707123"
   },
   {
     "name": "Beach Party Festival",
     "description": "Music and fun on the beach.",
     "price": 45,
-    "totaltickets": 2500,
+    "totalTickets": 2500,
     "location": "Rio de Janeiro, Brazil",
-    "eventdate": "2024-10-25",
-    "userid": "user808456"
+    "eventDate": 1729814400000,
+    "userId": "user808456"
   },
   {
     "name": "Film Premiere Gala",
     "description": "Red carpet event with celebrities.",
     "price": 200,
-    "totaltickets": 600,
+    "totalTickets": 600,
     "location": "Cannes, France",
-    "eventdate": "2024-09-10",
-    "userid": "user909789"
+    "eventDate": 1725926400000,
+    "userId": "user909789"
   },
   {
     "name": "Yoga Retreat Workshop",
     "description": "Wellness sessions and meditation.",
     "price": 100,
-    "totaltickets": 300,
+    "totalTickets": 300,
     "location": "Bali, Indonesia",
-    "eventdate": "2024-11-01",
-    "userid": "user010abc"
+    "eventDate": 1730419200000,
+    "userId": "user010abc"
   },
   {
     "name": "E-Sports Tournament",
     "description": "Competitive gaming with prizes.",
     "price": 25,
-    "totaltickets": 2000,
+    "totalTickets": 2000,
     "location": "Seoul, South Korea",
-    "eventdate": "2024-10-10",
-    "userid": "user111def"
+    "eventDate": 1728518400000,
+    "userId": "user111def"
   },
   {
     "name": "Wine Tasting Event",
     "description": "Sample fine wines from vineyards.",
     "price": 55,
-    "totaltickets": 400,
+    "totalTickets": 400,
     "location": "Napa Valley, USA",
-    "eventdate": "2024-09-25",
-    "userid": "user212ghi"
+    "eventDate": 1727222400000,
+    "userId": "user212ghi"
   },
   {
     "name": "Cultural Dance Show",
     "description": "Traditional dances from various cultures.",
     "price": 35,
-    "totaltickets": 1000,
+    "totalTickets": 1000,
     "location": "Tokyo, Japan",
-    "eventdate": "2024-12-15",
-    "userid": "user313jkl"
+    "eventDate": 1734220800000,
+    "userId": "user313jkl"
   },
   {
     "name": "Business Networking Mixer",
     "description": "Connect with industry professionals.",
     "price": 70,
-    "totaltickets": 700,
+    "totalTickets": 700,
     "location": "Toronto, Canada",
-    "eventdate": "2024-11-20",
-    "userid": "user414mno"
+    "eventDate": 1732060800000,
+    "userId": "user414mno"
   },
   {
     "name": "Halloween Horror Night",
     "description": "Spooky attractions and scares.",
     "price": 40,
-    "totaltickets": 3000,
+    "totalTickets": 3000,
     "location": "Orlando, USA",
-    "eventdate": "2024-10-31",
-    "userid": "user515pqr"
+    "eventDate": 1730332800000,
+    "userId": "user515pqr"
   },
   {
     "name": "Photography Workshop",
     "description": "Learn from pro photographers.",
     "price": 90,
-    "totaltickets": 200,
+    "totalTickets": 200,
     "location": "Sydney, Australia",
-    "eventdate": "2024-09-15",
-    "userid": "user616stu"
+    "eventDate": 1726358400000,
+    "userId": "user616stu"
   },
   {
     "name": "New Year's Eve Party",
     "description": "Countdown with fireworks and music.",
     "price": 120,
-    "totaltickets": 5000,
+    "totalTickets": 5000,
     "location": "Times Square, New York, USA",
-    "eventdate": "2024-12-31",
-    "userid": "user717vwx"
+    "eventDate": 1735603200000,
+    "userId": "user717vwx"
   }
 ]
