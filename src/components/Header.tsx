@@ -40,7 +40,9 @@ const Header = () => {
 
             <SignedOut>
               <SignInButton>
-                <button className="text-sm text-foreground border-2 border-primary py-2 px-3 rounded hover:bg-secondary hover:border-accent hover:text-primary cursor-pointer">
+                <button className="font-medium text-sm text-foreground border-2 border-primary py-2 px-3.5 rounded-full 
+                hover:scale-105   transition-all duration-200
+                 cursor-pointer">
                   Sign In
                 </button>
               </SignInButton>
@@ -56,12 +58,12 @@ const Header = () => {
         <div className="hidden  ml-auto lg:flex lg:items-center lg:justify-center">
           <SignedIn>
             <Link href="/mytickets">
-              <button className="text-sm text-foreground border-2 border-primary py-2 px-3 rounded hover:bg-primary font-medium hover:text-white cursor-pointer transition-colors duration-200">
+              <button className="text-sm text-foreground border-2 border-primary py-2 px-3 rounded-full hover:bg-primary font-medium hover:text-white cursor-pointer transition-colors duration-200">
                 My Tickets
               </button>
             </Link>
             <Link href="seller">
-              <button className="ml-4 text-sm text-foreground border-2 border-primary py-2 px-3 rounded hover:bg-primary font-medium hover:text-white cursor-pointer transition-colors duration-200">
+              <button className="ml-4 text-sm text-foreground border-2 border-primary py-2 px-3 rounded-full hover:bg-primary font-medium hover:text-white cursor-pointer transition-colors duration-200">
                 Sell Tickets
               </button>
             </Link>
@@ -87,12 +89,12 @@ const Header = () => {
         <SignedIn>
             <div className="flex lg:hidden w-full gap-3 items-center">
                 <Link href="/mytickets" className="flex-1">
-              <button className="text-sm w-full text-foreground border-2 border-primary py-2 px-3 rounded hover:bg-primary font-medium hover:text-white cursor-pointer transition-colors duration-200">
+              <button className="text-sm w-full text-foreground border-2 border-primary py-2 px-3 rounded-full hover:bg-primary font-medium hover:text-white cursor-pointer transition-colors duration-200">
                 My Tickets
               </button>
             </Link>
             <Link href="seller" className="flex-1">
-              <button className="text-sm w-full text-foreground border-2 border-primary py-2 px-3 rounded hover:bg-primary font-medium hover:text-white cursor-pointer transition-colors duration-200">
+              <button className="text-sm w-full text-foreground border-2 border-primary py-2 px-3 rounded-full hover:bg-primary font-medium hover:text-white cursor-pointer transition-colors duration-200">
                 Sell Tickets
               </button>
             </Link>
