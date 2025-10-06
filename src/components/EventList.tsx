@@ -1,8 +1,9 @@
 "use client";
-import { Loader2Icon, Calendar } from "lucide-react";
+import { Loader2Icon, Calendar, Key, Ticket } from "lucide-react";
 
 import { useQuery } from "convex/react";
 import { api } from "../../convex/_generated/api";
+import EventCard from "./EventCard";
 const EventList = () => {
   const events = useQuery(api.events.get); //fetch all non-cancelled events
   // console.log(events)
@@ -40,7 +41,37 @@ const EventList = () => {
 
           </div>
         </div>
-      </div>
+
+        {/* upcoming events grid */}
+        {upcomingEvents.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {upcomingEvents.map((event) => (
+              <EventCard Key={event._id} eventId={event._id} />
+            ))}
+          </div>
+        ) : (
+          <div className="bg-secondary rounded-lg p-12 text-center mb-12">
+            <Ticket className="w-12 h-12 text-secondary mx-auto mb-4"/>
+            <h3 className="text-lg font-medium text-gray-900">No upcoming events</h3>
+            <p className="text-secondary mt-1">Check back later for new events</p>
+          </div>
+
+        )
+  //    //past events section
+      }
+      {pastEvents.length > 0 && ( 
+        <div>
+          <h2 className="text-2xl font-bold text-primary mb-6">Past Events</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {pastEvents.map((event) => (
+              <EventCard Key={event._id} eventId={event._id} />
+            ))}
+          </div>
+        </div>
+      )
+      //if no past events, do not render anything
+}
+    </div>
   )
 };
 

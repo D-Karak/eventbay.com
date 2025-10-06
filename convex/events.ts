@@ -10,3 +10,14 @@ export const get = query({
         .collect();
     }
 })
+//get event by id
+export const getById = query({
+    args: {eventId: v.id("events")},
+    handler: async (ctx, {eventId}) => {
+        const event = await ctx.db.get(eventId);
+        if(!event){
+            throw new ConvexError("Event not found or has been cancelled");
+        }
+        return event;
+    }
+})
