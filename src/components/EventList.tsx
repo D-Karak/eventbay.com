@@ -19,7 +19,7 @@ const EventList = () => {
     .sort((a, b) => a.eventDate - b.eventDate);
     //past events 
   const pastEvents = events
-    .filter((e) => e.eventDate >= Date.now())
+    .filter((e) => e.eventDate <= Date.now())
     .sort((a, b) => a.eventDate - b.eventDate);
 
   return(
@@ -46,7 +46,7 @@ const EventList = () => {
         {upcomingEvents.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {upcomingEvents.map((event) => (
-              <EventCard Key={event._id} eventId={event._id} />
+              <EventCard key={event._id} eventId={event._id} />
             ))}
           </div>
         ) : (
@@ -64,7 +64,7 @@ const EventList = () => {
           <h2 className="text-2xl font-bold text-primary mb-6">Past Events</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {pastEvents.map((event) => (
-              <EventCard Key={event._id} eventId={event._id} />
+              <EventCard key={event._id} eventId={event._id} />
             ))}
           </div>
         </div>
