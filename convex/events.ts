@@ -21,3 +21,11 @@ export const getById = query({
         return event;
     }
 })
+
+//count how many tecket purchased
+export const getEventAvailablity = query({
+    args: {eventId: v.id("events")},
+    handler: async (ctx, {eventId})=>{
+        const event = await ctx.db.get(eventId)
+    }
+})
