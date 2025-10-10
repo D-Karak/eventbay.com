@@ -15,6 +15,17 @@ const EventCard = ({ eventId }: cardProps) => {
   const { user } = useUser();
   const router = useRouter();
   const event = useQuery(api.events.getById, { eventId });
+  const availability = useQuery(api.events.getEventAvailablity, { eventId });
+  
+  const userTicket = useQuery(api.tickets.getUserTicketsForEvent, {
+    eventId,
+    userId: user?.id || "",
+  });
+
+  const queuePosition = useQuery(api.waitingList.getQueuePosition,{
+    eventId,
+    userId: user?.id || "",
+  });
 
   if (!event) {
     return (
@@ -39,14 +50,14 @@ const EventCard = ({ eventId }: cardProps) => {
       {/* Content */}
       <div className="p-6 space-y-4">
         <div className="flex items-center gap-3">
-          <MapPin className="w-5 h-5 text-blue-500 dark:text-blue-400 flex-shrink-0" />
+          <MapPin className="w-5 h-5 text-foreground/50 flex-shrink-0" />
           <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
             {event.location}
           </span>
         </div>
 
         <div className="flex items-center gap-3">
-          <DollarSign className="w-5 h-5 text-green-500 dark:text-green-400 flex-shrink-0" />
+          <DollarSign className="w-5 h-5 text-foreground/50 flex-shrink-0" />
           <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
             ${event.price}
           </span>
@@ -54,7 +65,7 @@ const EventCard = ({ eventId }: cardProps) => {
 
         {event.eventDate && (
           <div className="flex items-center gap-3">
-            <Calendar className="w-5 h-5 text-purple-500 dark:text-purple-400 flex-shrink-0" />
+            <Calendar className="w-5 h-5 text-foreground/50 flex-shrink-0" />
             <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
               {new Date(event.eventDate).toLocaleDateString()}
             </span>
