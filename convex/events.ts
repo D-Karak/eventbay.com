@@ -31,19 +31,16 @@ export const getEventAvailablity = query({
         const event = await ctx.db.get(eventId);
         if(!event) throw new Error("Event Not found");
 
-        //count the purchased tickets
-        const purchasedCount= ctx.db
-        .query("tickets")
-        .withIndex("by_event", (q) => q.eq("eventId", eventId))
-        .collect()
-        .then(
-            (tickets)=>
-                tickets.filter(
-                    t=>
-                        t.status === TICKET_STATUS.VALID ||
-                    t.status === TICKET_STATUS.USED
-                ).length
-        );
+        // count the purchased tickets
+        const tickets = await ctx.db
+          .query("tickets")
+          .withIndex("by_event", (q) => q.eq("eventId", eventId))
+          .collect();
+        
+        const purchasedCount = tickets.filter(
+          (t) =>
+            t.status === TICKET_STATUS.VALID || t.status === TICKET_STATUS.USED
+        ).length;
 
         //count current valid offers
         const activeOffers= await ctx.db
